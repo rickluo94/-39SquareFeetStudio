@@ -96,12 +96,12 @@ const StartPageContent = () => {
             </div>
             <div className={classes.liCard} data-aos="fade-up-right" >
               <p>SEO行銷</p>
-              <p>NT$ 80000</p>
+              <p>NT$ 100000</p>
               <p>起／月</p>
               <ul>
-                <li>百度</li>
-                <li>Google</li>
-                <li>百度快速上榜</li>
+                <li>百度 SEO</li>
+                <li>Google SEO</li>
+                <li>百度黑帽 SEO</li>
               </ul>
               <a
                   target={"_blank"}
