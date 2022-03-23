@@ -50,26 +50,14 @@ const MainNavigation = () => {
     }
   };
 
-  const loginClickHandler = () => {
-    navigate("auth");
-    dispatch(collectionHide());
-    petBanOnClickInput.fire();
-  };
-
   const aboutClickHandler = () => {
     navigate("about");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
 
-  const memberClickHandler = () => {
-    navigate("member");
-    dispatch(collectionHide());
-    petBanOnClickInput.fire();
-  };
-
-  const petClickHandler = () => {
-    navigate("pet");
+  const exampleClickHandler = () => {
+    navigate("example");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
@@ -85,16 +73,10 @@ const MainNavigation = () => {
         <div className={classes.backdrop} onClick={meowClickHandler} />
         <div id="NavCollection" className={classes.navCollection}>
           <button className={classes.colBtn} onClick={aboutClickHandler}>
-            About us
+            關於Pet伴
           </button>
-          <button className={classes.colBtn} onClick={memberClickHandler}>
-            Member
-          </button>
-          <button className={classes.colBtn} onClick={petClickHandler}>
-            Pet
-          </button>
-          <button className={classes.colBtn} onClick={loginClickHandler}>
-            Log in
+          <button className={classes.colBtn} onClick={exampleClickHandler}>
+            成功案例
           </button>
         </div>
       </div>
@@ -114,16 +96,10 @@ const MainNavigation = () => {
           </div>
           <div className="hidden md:flex items-center space-x-1">
             <button className={classes.btn} onClick={aboutClickHandler}>
-              About us
+              關於Pet伴
             </button>
-            <button className={classes.btn} onClick={memberClickHandler}>
-              Member
-            </button>
-            <button className={classes.btn} onClick={petClickHandler}>
-              Pet
-            </button>
-            <button className={classes.btn} onClick={loginClickHandler}>
-              Log in
+            <button className={classes.btn} onClick={exampleClickHandler}>
+              成功案例
             </button>
           </div>
           <div className={"md:hidden flex w-full justify-end items-center"}>

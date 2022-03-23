@@ -22,50 +22,71 @@ const StartPageContent = () => {
             <h1>
               Pet 伴
               <br />
-              陪伴你的寵物一生
+              創意工作室
               <br />
             </h1>
-            <div className={classes.cosH2}>毛小孩醫療資訊整合平台</div>
+            <div className={classes.cosH2}>SEO行銷、RWD網頁開發、切版、後端服務、後端介接</div>
           </div>
           <Cat className={classes.logo} />
         </div>
       </div>
       <div className={classes.mainBody}>
         <div className={classes.mainContent}>
-          <h2>我們正在做的事</h2>
-          <ul>
-            <li>提升流浪動物領養率</li>
-            <li>提升寵物醫療便利性</li>
-          </ul>
-        </div>
-      </div>
-      <div className={classes.mainBody}>
-        <div className={classes.mainContent}>
-          <h2>我們提供的服務</h2>
-          <div className={classes.mainItem}>
-            <div className={classes.span}>飼主</div>
-            <p>
-              提供醫療紀錄
-              <br />
-              醫院預約及查詢掛號狀態
-            </p>
-            <div className={classes.actions}>
-              <button onClick={loginClickHandler}>成為會員</button>
+          <div className={classes.provide}>提供服務</div>
+          <div className={classes.ulCard}>
+            <div className={classes.liCard} >
+              <p>RWD 網站切版</p>
+              <p>NT$ 800 </p>
+              <p>起/頁</p>
+              <ul>
+                <li>HTML + CSS</li>
+                <li>Tailwind</li>
+                <li>Bootstrap</li>
+              </ul>
+              <a
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  className={"button w-button"}
+                  href={"https://www.facebook.com/PetBan.Studio"}
+              >
+                馬上詢價
+              </a>
             </div>
-          </div>
-          <div className={classes.mainItem}>
-            <div className={classes.span}>
-              動物之家
-              <br />
-              中途
+            <div className={classes.liCard} >
+              <p>RESTful API 設計</p>
+              <p>NT$ 1500</p>
+              <p>起</p>
+              <ul>
+                <li>Restful API</li>
+                <li>ASP.NET</li>
+                <li>PHP Laravel</li>
+              </ul>
+              <a
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  className={"button w-button"}
+                  href={"https://www.facebook.com/PetBan.Studio"}
+              >
+                馬上詢價
+              </a>
             </div>
-            <p>
-              追蹤送養寵物就診及預防針施打
-              <br />
-              可以於平台上媒合飼養者
-            </p>
-            <div className={classes.actions}>
-              <button onClick={loginClickHandler}>成為會員</button>
+            <div className={classes.liCard} >
+              <p>API 介接</p>
+              <p>NT$ 1500 </p>
+              <p>起</p>
+              <ul>
+                <li>React</li>
+                <li>ASP.NET 、 WPF</li>
+                <li>Laravel</li>
+              </ul>
+              <a
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  className={"button w-button"}
+                  href={"https://www.facebook.com/PetBan.Studio"}
+              >
+                馬上詢價
+              </a>
             </div>
           </div>
         </div>
@@ -81,7 +102,7 @@ const StartPageContent = () => {
             <img src={wildDonkeyImg} alt={"Wild Donkey Works"} />
           </a>
           <p>
-            感謝您看到這裡
+            感謝您
             <br />
             誠摯邀請您與我們合作
             <br />
