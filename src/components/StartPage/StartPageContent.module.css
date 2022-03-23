@@ -1,0 +1,124 @@
+.startBody {
+  @apply justify-center;
+}
+
+.banner {
+  @apply flex md:mx-12 mx-1 justify-center;
+  @apply rounded-b-3xl bg-white;
+}
+
+.content {
+  @apply flex flex-wrap w-9/12 justify-center;
+}
+
+.subject {
+  @apply md:mt-28 md:text-justify leading-10;
+  /* Pet 伴， 陪伴你的寵物一生 */
+  /* 毛小孩的就診紀錄整合平台 */
+  @apply font-mono;
+  color: #464544;
+}
+
+.subject h1 {
+  @apply mt-16;
+  @apply md:text-6xl text-3xl;
+  color: #464544;
+}
+
+.logo {
+  /* 放照片輪播的地方 */
+  @apply box-border md:w-3/6;
+}
+
+.cosH2 {
+  @apply right-1.5 mt-10;
+  @apply md:text-3xl text-base;
+  color: #464544;
+}
+
+.mainBody {
+  @apply flex justify-center min-w-full mt-32 mb-32;
+  color: #464544;
+}
+
+.mainContent {
+  @apply flex flex-col w-9/12;
+  @apply font-mono leading-10;
+}
+
+.mainContent h2 {
+  @apply pl-5 m-5 md:text-left text-center;
+  @apply md:text-6xl text-2xl;
+  color: #464544;
+}
+.mainContent ul {
+  @apply ml-10 mx-auto;
+}
+
+.mainContent li {
+  @apply pl-5 m-5 text-left;
+  @apply md:text-3xl text-base border-l-8 border-amber-500;
+}
+.mainContent li:hover {
+  @apply border-amber-700;
+}
+
+.mainContent p {
+  @apply text-2xl text-left p-5;
+}
+.mainItem {
+  @apply flex flex-col m-5;
+  @apply bg-white rounded-2xl border-t-4 border-t-amber-600;
+}
+
+.span {
+  @apply w-36 p-1 mb-5 mt-5;
+  @apply text-3xl text-white rounded-sm;
+  background: #e2b59c;
+}
+
+.actions {
+  @apply flex md:justify-end justify-center mt-6;
+}
+
+.actions button {
+  @apply min-w-fit m-5;
+  @apply font-mono text-2xl text-white cursor-pointer rounded-md;
+  padding: 0.5rem 1.5rem;
+  color: #e4651d;
+}
+
+.actions button:hover {
+  @apply bg-gray-200;
+}
+
+.partnerBody {
+  @apply flex justify-center mb-10;
+  @apply bg-white font-mono;
+}
+
+.partnerBody h2 {
+  @apply text-4xl m-5 font-mono;
+  color: #464544;
+}
+.partnerBody p {
+  @apply text-base m-5 font-mono;
+  color: #464544;
+}
+
+.partnerContent {
+  @apply flex flex-col items-center;
+  @apply w-9/12 text-center;
+}
+
+.partnerContent a{
+  @apply w-36 border-l-2 ;
+  border-color: transparent;
+}
+.partnerContent a:hover{
+  @apply border-l-2 border-amber-500;
+}
+
+.partnerContent img{
+  @apply mx-auto;
+}
