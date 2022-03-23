@@ -1,4 +1,6 @@
 import classes from "./StartPageContent.module.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { ReactComponent as Cat } from "../../assets/cat.svg";
 import wildDonkeyImg from "../../assets/wilddonkeyworks2020.png";
 import { useNavigate } from "react-router-dom";
@@ -13,6 +15,10 @@ const StartPageContent = () => {
     navigate("auth");
     dispatch(collectionHide());
   };
+
+  AOS.init({
+    duration: 2000
+  });
 
   return (
     <section className={classes.startBody}>
@@ -34,7 +40,7 @@ const StartPageContent = () => {
         <div className={classes.mainContent}>
           <div className={classes.provide}>提供服務</div>
           <div className={classes.ulCard}>
-            <div className={classes.liCard} >
+            <div className={classes.liCard} data-aos="fade-up-left" >
               <p>RWD 網站切版</p>
               <p>NT$ 800 </p>
               <p>起/頁</p>
@@ -46,14 +52,14 @@ const StartPageContent = () => {
               <a
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className={"button w-button"}
+                  className={classes.button}
                   href={"https://www.facebook.com/PetBan.Studio"}
               >
                 馬上詢價
               </a>
             </div>
-            <div className={classes.liCard} >
-              <p>RESTful API 設計</p>
+            <div className={classes.liCard} data-aos="fade-up" >
+              <p>後端服務</p>
               <p>NT$ 1500</p>
               <p>起</p>
               <ul>
@@ -64,14 +70,14 @@ const StartPageContent = () => {
               <a
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className={"button w-button"}
+                  className={classes.button}
                   href={"https://www.facebook.com/PetBan.Studio"}
               >
                 馬上詢價
               </a>
             </div>
-            <div className={classes.liCard} >
-              <p>API 介接</p>
+            <div className={classes.liCard} data-aos="fade-up" >
+              <p>後端介接</p>
               <p>NT$ 1500 </p>
               <p>起</p>
               <ul>
@@ -82,7 +88,25 @@ const StartPageContent = () => {
               <a
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className={"button w-button"}
+                  className={classes.button}
+                  href={"https://www.facebook.com/PetBan.Studio"}
+              >
+                馬上詢價
+              </a>
+            </div>
+            <div className={classes.liCard} data-aos="fade-up-right" >
+              <p>SEO行銷</p>
+              <p>NT$ 80000</p>
+              <p>起／月</p>
+              <ul>
+                <li>百度</li>
+                <li>Google</li>
+                <li>百度快速上榜</li>
+              </ul>
+              <a
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  className={classes.button}
                   href={"https://www.facebook.com/PetBan.Studio"}
               >
                 馬上詢價
