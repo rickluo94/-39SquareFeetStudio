@@ -1,6 +1,6 @@
 import classes from "./StartPageContent.module.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { ReactComponent as Cat } from "../../assets/cat.svg";
 import wildDonkeyImg from "../../assets/wilddonkeyworks2020.png";
 import { useNavigate } from "react-router-dom";
@@ -17,7 +17,7 @@ const StartPageContent = () => {
   };
 
   AOS.init({
-    duration: 2000
+    duration: 2000,
   });
 
   return (
@@ -31,7 +31,9 @@ const StartPageContent = () => {
               創意工作室
               <br />
             </h1>
-            <div className={classes.cosH2}>SEO行銷、RWD網頁開發、切版、後端服務、後端介接</div>
+            <div className={classes.cosH2}>
+              SEO行銷、RWD網頁開發、切版、後端服務、後端介接
+            </div>
           </div>
           <Cat className={classes.logo} />
         </div>
@@ -40,7 +42,7 @@ const StartPageContent = () => {
         <div className={classes.mainContent}>
           <div className={classes.provide}>提供服務</div>
           <div className={classes.ulCard}>
-            <div className={classes.liCard} data-aos="fade-up-left" >
+            <div className={classes.liCard} data-aos="fade-up-left">
               <p>RWD 網站切版</p>
               <p>NT$ 800 </p>
               <p>起/頁</p>
@@ -49,16 +51,18 @@ const StartPageContent = () => {
                 <li>Tailwind</li>
                 <li>Bootstrap</li>
               </ul>
-              <a
+              <div className={classes.growArea}>
+                <a
                   target={"_blank"}
                   rel={"noreferrer"}
                   className={classes.button}
                   href={"https://www.facebook.com/PetBan.Studio"}
-              >
-                馬上詢價
-              </a>
+                >
+                  馬上詢價
+                </a>
+              </div>
             </div>
-            <div className={classes.liCard} data-aos="fade-up" >
+            <div className={classes.liCard} data-aos="fade-up-right">
               <p>後端服務</p>
               <p>NT$ 1500</p>
               <p>起</p>
@@ -67,16 +71,18 @@ const StartPageContent = () => {
                 <li>ASP.NET</li>
                 <li>PHP Laravel</li>
               </ul>
-              <a
+              <div className={classes.growArea}>
+                <a
                   target={"_blank"}
                   rel={"noreferrer"}
                   className={classes.button}
                   href={"https://www.facebook.com/PetBan.Studio"}
-              >
-                馬上詢價
-              </a>
+                >
+                  馬上詢價
+                </a>
+              </div>
             </div>
-            <div className={classes.liCard} data-aos="fade-up" >
+            <div className={classes.liCard} data-aos="fade-up-left">
               <p>後端介接</p>
               <p>NT$ 1500 </p>
               <p>起</p>
@@ -85,16 +91,18 @@ const StartPageContent = () => {
                 <li>ASP.NET 、 WPF</li>
                 <li>Laravel</li>
               </ul>
-              <a
+              <div className={classes.growArea}>
+                <a
                   target={"_blank"}
                   rel={"noreferrer"}
                   className={classes.button}
                   href={"https://www.facebook.com/PetBan.Studio"}
-              >
-                馬上詢價
-              </a>
+                >
+                  馬上詢價
+                </a>
+              </div>
             </div>
-            <div className={classes.liCard} data-aos="fade-up-right" >
+            <div className={classes.liCard} data-aos="fade-up-right">
               <p>SEO行銷</p>
               <p>NT$ 100000</p>
               <p>起／月</p>
@@ -103,14 +111,16 @@ const StartPageContent = () => {
                 <li>Google SEO</li>
                 <li>百度黑帽 SEO</li>
               </ul>
-              <a
+              <div className={classes.growArea}>
+                <a
                   target={"_blank"}
                   rel={"noreferrer"}
                   className={classes.button}
                   href={"https://www.facebook.com/PetBan.Studio"}
-              >
-                馬上詢價
-              </a>
+                >
+                  馬上詢價
+                </a>
+              </div>
             </div>
           </div>
         </div>

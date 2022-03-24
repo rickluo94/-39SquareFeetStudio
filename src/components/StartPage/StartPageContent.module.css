@@ -43,7 +43,7 @@
 }
 
 .mainContent {
-  @apply flex flex-col;
+  @apply flex flex-col space-y-6;
   @apply w-full md:w-9/12;
   @apply font-mono leading-10;
 }
@@ -113,15 +113,14 @@
 }
 
 .ulCard {
-  @apply flex flex-col md:flex-row;
+  @apply flex flex-col sm:flex-col md:flex-col lg:flex-row;
   @apply justify-items-center;
   @apply items-center justify-center;
 }
 
 .liCard {
-  @apply flex;
-  @apply w-10/12 md:w-4/12;
-  @apply inline-block;
+  @apply flex flex-col;
+  @apply w-10/12 h-full;
   @apply text-center;
   @apply m-4 p-8;
   @apply rounded-3xl;
@@ -155,19 +154,22 @@
   background: hsl(230 35% 7%/.8);
 }
 
+.growArea{
+  @apply flex grow;
+  @apply justify-center;
+}
+
 .button {
+  @apply flex inline-block;
+  @apply self-end;
+  @apply justify-center justify-items-center;
+  @apply text-center rounded-2xl;
+  @apply py-3 px-6;
   color: hsl(230 35% 7%);
   font-size: 1.33rem;
-  text-align: center;
-  min-width: 10rem;
-  margin-top: auto;
   background: hsl(22 78.8% 50%);
-  border: 2px solid hsl(22 78.8% 50%);
-  border-radius: 1rem;
   text-decoration: none;
   transition: 500ms;
-  display: inline-block;
-  padding: 9px;
   cursor: pointer;
   opacity: 0;
   animation: 800ms ease-out 1000ms 1 slideInFromRight-3 forwards;
