@@ -136,13 +136,9 @@ const StartPageContent = () => {
             <img src={wildDonkeyImg} alt={"Wild Donkey Works"} />
           </a>
           <p>
-            感謝您
-            <br />
             誠摯邀請您與我們合作
             <br />
-            cathy830409@gmal.com
-            <br />
-            PetBan創意工作室
+            <a href="mailto:petban@petban.net">Email:petban@petban.net</a>
           </p>
         </div>
       </div>
