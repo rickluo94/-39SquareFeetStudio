@@ -35,7 +35,7 @@ const StartPageContent = () => {
               SEO行銷、RWD網頁開發、切版、後端服務、後端介接
             </div>
           </div>
-          <Cat className={classes.logo} />
+          {/*<Cat className={classes.logo} />*/}
         </div>
       </div>
       <div className={classes.mainBody}>
@@ -104,7 +104,7 @@ const StartPageContent = () => {
             </div>
             <div className={classes.liCard} data-aos="fade-up-right">
               <p>SEO行銷</p>
-              <p>NT$ 100000</p>
+              <p>NT$ 50000</p>
               <p>起／月</p>
               <ul>
                 <li>百度 SEO</li>

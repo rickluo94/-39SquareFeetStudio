@@ -17,6 +17,7 @@
   /* Pet 伴， 陪伴你的寵物一生 */
   /* 毛小孩的就診紀錄整合平台 */
   @apply font-mono;
+  @apply my-10;
   color: #464544;
 }
 
