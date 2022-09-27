@@ -39,14 +39,20 @@
 }
 
 .mainBody {
-  @apply flex justify-center min-w-full mt-32 mb-32;
+  @apply flex justify-center min-w-full mt-20;
   color: #464544;
 }
 
 .mainContent {
-  @apply flex flex-col space-y-6;
+  @apply flex flex-col space-y-16;
   @apply w-full md:w-9/12;
   @apply font-mono leading-10;
+}
+
+.mainTitle{
+  @apply pl-5 text-left;
+  color: #464544;
+  font-size: 1.75rem;
 }
 
 .mainItem {
@@ -90,6 +96,7 @@
 }
 
 .partnerContent {
+  @apply mt-24;
   @apply flex flex-col items-center;
   @apply w-9/12 text-center;
 }
@@ -106,17 +113,20 @@
   @apply mx-auto;
 }
 
-.provide{
-  @apply my-5;
-  @apply text-left;
-  color: #464544;
-  font-size: 3.5rem;
-}
+
 
 .ulCard {
   @apply flex flex-col sm:flex-col md:flex-col lg:flex-row;
   @apply justify-items-center;
   @apply items-center justify-center;
+}
+
+.ulGrid {
+  @apply grid sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-1;
+}
+
+.Check{
+  @apply inline w-6 mr-3;
 }
 
 .liCard {
@@ -129,30 +139,55 @@
   background: hsl(230 35% 7%/.3);
 }
 
-.liCard p{
-  @apply text-2xl;
-  text-align: left;
-  padding-top: 1.75rem;
-}
-.liCard ul{
-  text-align: left;
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
+.liCard h2,.liGrid h2,.seoCard h2{
+  @apply text-left text-2xl;
 }
 
-.liCard p:first-of-type + p{
-  @apply text-3xl;
+.liCard ul,.liGrid ul{
+  @apply flex flex-col justify-start text-left;
+  @apply my-6;
 }
 
-.liCard p:nth-child(3){
-  @apply text-base;
-  padding-top: 0;
-  border-bottom: 2px solid hsla(0,0%,80%,.6);
+.liCard li{
+  line-height: 1.5;
 }
 
-.liCard:nth-child(even){
+.liCard p,.liGrid p{
+  @apply text-left;
+}
+
+.liGrid{
+  @apply grid gap-1;
+  grid-template-rows: 1fr 3fr 3fr;
+  @apply text-center;
+  @apply m-4 p-6;
+  @apply rounded-3xl;
+  color: #0c0e18;
+  background: hsl(230 35% 7%/.3);
+}
+
+.liCard:nth-child(even),.liGrid:nth-child(even){
   color: #ffffff;
   background: hsl(230 35% 7%/.8);
+}
+
+.seoContainer {
+  @apply flex flex-col md:flex-row lg:flex-row;
+}
+
+.seoImg {
+  @apply px-5;
+  width: auto;
+}
+
+.seoCard {
+  @apply flex flex-col;
+  @apply w-auto;
+  @apply text-left;
+  @apply m-4 p-8;
+  @apply rounded-3xl;
+  color: #0c0e18;
+  background: hsl(230 35% 7%/.3);
 }
 
 .growArea{
