@@ -11,7 +11,7 @@ const Footer = () => {
         <button>合作夥伴</button>
       </div>
       <div className={classes.content}>
-        <p>Copyright &copy; 2021 PetBan創意工作室</p>
+        <p>Copyright &copy; 2021 山石久平工作室</p>
       </div>
     </div>
   );

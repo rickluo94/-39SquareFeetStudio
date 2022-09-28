@@ -1,6 +1,5 @@
 import classes from "./StartPageContent.module.css";
 import { ReactComponent as SeoImg } from "../../assets/seoimg.svg";
-import { ReactComponent as Cat } from "../../assets/cat.svg";
 import { ReactComponent as Check } from "../../assets/check.svg";
 import wildDonkeyImg from "../../assets/wilddonkeyworks2020.png";
 import { useNavigate } from "react-router-dom";
@@ -10,13 +9,6 @@ import { collectionHide } from "../../features/mainNav/mainNav-Slice";
 const StartPageContent = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-
-  const loginClickHandler = () => {
-    navigate("auth");
-    dispatch(collectionHide());
-  };
-
-
 
   return (
     <section className={classes.startBody}>
