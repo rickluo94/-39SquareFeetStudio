@@ -176,8 +176,7 @@
 }
 
 .seoImg {
-  @apply px-5;
-  width: auto;
+  @apply mx-5;
 }
 
 .seoCard {
