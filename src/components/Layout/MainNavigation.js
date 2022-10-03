@@ -90,17 +90,17 @@ const MainNavigation = () => {
           <div className="flex space-x-4">
             <div>
               <button onClick={homeClickHandler} className={classes.appLogo}>
-                <Logo className="w-32 mr-2" alt="logo" />
+                {/* <Logo className="w-32 mr-2" alt="logo" /> */}
               </button>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-1">
             <button className={classes.btn} onClick={aboutClickHandler}>
-              關於Pet伴
+              關於
             </button>
-            <button className={classes.btn} onClick={exampleClickHandler}>
-              成功案例
-            </button>
+            {/* <button className={classes.btn} onClick={exampleClickHandler}> */}
+            {/*   成功案例 */}
+            {/* </button> */}
           </div>
           <div className={"md:hidden flex w-full justify-end items-center"}>
             <HamburgerComponent
