@@ -1,0 +1,41 @@
+.sectionKnowhow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card{
+  padding:0 1.75rem;
+  margin:1.75rem;
+}
+
+.Card h2{
+  margin-bottom: 3rem;
+}
+
+.sectionPrice{
+  display: grid;
+  margin: 0rem 15rem;
+  gap: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.priceCard{
+  padding: 2.75rem;
+  border: 1px solid #333;
+  border-radius: 2.4rem;
+}
+
+.priceCard p{
+  font-size: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+.olGrid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.olTitle{
+   font-size: 2rem;
+}

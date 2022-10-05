@@ -5,13 +5,37 @@
 html,
 body {
   @apply m-0;
+  font-size: 62.5%;
   background: white;
-  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h2{
+  font-size: 2.75rem;
+  font-weight: 500;
+  color: #E67700;
+}
+
+li{
+  font-size:1.75rem;
+}
+
+ol{
+  list-style: square inside;
+}
+
+p{
+  font-size:1.4rem;
+}
+
+hr{
+  border:none;
+  border-left:1px solid hsla(200, 10%, 50%,100);
+  width:1px;    
 }
 
 code {

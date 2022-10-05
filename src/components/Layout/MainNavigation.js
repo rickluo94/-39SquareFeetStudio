@@ -56,6 +56,13 @@ const MainNavigation = () => {
     petBanOnClickInput.fire();
   };
 
+  const workflowClickHandler = () => {
+    navigate("workflow");
+    dispatch(collectionHide());
+    petBanOnClickInput.fire();
+  };
+
+
   const exampleClickHandler = () => {
     navigate("example");
     dispatch(collectionHide());
@@ -95,8 +102,8 @@ const MainNavigation = () => {
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-1">
-            <button className={classes.btn} onClick={aboutClickHandler}>
-              關於
+            <button className={classes.btn} onClick={workflowClickHandler}>
+              如何開始
             </button>
             {/* <button className={classes.btn} onClick={exampleClickHandler}> */}
             {/*   成功案例 */}

@@ -130,7 +130,7 @@
 }
 
 .liCard {
-  @apply flex flex-col;
+  @apply flex flex-col space-y-7;
   @apply w-10/12 h-full;
   @apply text-center;
   @apply m-4 p-8;
@@ -149,15 +149,18 @@
 }
 
 .liCard h2,.liGrid h2,.seoCard h2{
-  @apply text-left text-2xl;
+  @apply text-left;
+  font-size: 2rem;
 }
 
-.liCard ul,.liGrid ul{
+.liCard ul,.liGrid,.seoCard ul{
   @apply flex flex-col justify-start text-left;
-  @apply my-6;
+  @apply mb-28;
 }
 
-.liCard li{
+.liCard li,.liGrid li,.seoCard li
+{
+  text-align:left;
   line-height: 1.5;
 }
 
@@ -166,7 +169,7 @@
 }
 
 .liGrid{
-  @apply grid gap-1;
+  @apply grid gap-8;
   grid-template-rows: 1fr 3fr 3fr;
   @apply text-center;
   @apply m-4 p-6;
@@ -195,7 +198,7 @@
 }
 
 .seoCard {
-  @apply flex flex-col;
+  @apply flex flex-col space-y-7;
   @apply w-auto;
   @apply text-left;
   @apply m-4 p-8;
@@ -216,7 +219,7 @@
   @apply text-center rounded-2xl;
   @apply py-3 px-6;
   color: hsl(230 35% 7%);
-  font-size: 1.33rem;
+  font-size: 1.4rem;
   background: hsl(22 78.8% 50%);
   text-decoration: none;
   transition: 500ms;
