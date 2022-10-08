@@ -44,7 +44,7 @@
 }
 
 .mainContent {
-  @apply flex flex-col space-y-16;
+  @apply flex flex-col space-y-28;
   @apply w-full md:w-9/12;
   @apply font-mono leading-10;
 }
@@ -52,7 +52,7 @@
 .mainTitle{
   @apply pl-5 text-left;
   color: #464544;
-  font-size: 1.75rem;
+  font-size: 2.75rem;
 }
 
 .mainItem {

@@ -48,7 +48,16 @@ const WrokflowPageContent = () => {
           <hr />
           <p>金額</p>
           <p>$------元起</p>
-        </div>
+          <div className={classes.buttonBox}>
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              className={classes.button}
+              href={"https://www.facebook.com/PetBan.Studio"}
+            >
+              馬上詢價
+            </a>
+          </div>        </div>
         <div className={classes.priceCard}>
           <h2>形象網站</h2>
           <p>企業或品牌官網，形象為主的網站</p>
@@ -71,6 +80,16 @@ const WrokflowPageContent = () => {
           <hr />
           <p>金額</p>
           <p>$------元起</p>
+          <div className={classes.buttonBox}>
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              className={classes.button}
+              href={"https://www.facebook.com/PetBan.Studio"}
+            >
+              馬上詢價
+            </a>
+          </div>
         </div>
         <div className={classes.priceCard}>
           <h2>購物網站</h2>
@@ -95,6 +114,16 @@ const WrokflowPageContent = () => {
           <hr />
           <p>金額</p>
           <p>$------元起</p>
+          <div className={classes.buttonBox}>
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              className={classes.button}
+              href={"https://www.facebook.com/PetBan.Studio"}
+            >
+              馬上詢價
+            </a>
+          </div>
         </div>
       </div>
     </>

@@ -1,4 +1,6 @@
+
 .sectionKnowhow{
+  margin-top:15rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +17,7 @@
 
 .sectionPrice{
   display: grid;
-  margin: 0rem 15rem;
+  margin: 15rem 15rem;
   gap: 5rem;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -38,4 +40,38 @@
 
 .olTitle{
    font-size: 2rem;
+}
+
+.buttonBox{
+  display: flex;
+  justify-content:center;
+}
+
+.button {
+  padding: 1rem;
+  border-radius: 1.75rem;
+  color: hsl(230 35% 7%);
+  font-size: 2rem;
+  background: hsl(22 78.8% 50%);
+  text-decoration: none;
+  transition: 500ms;
+  cursor: pointer;
+  opacity: 0;
+  animation: 800ms ease-out 1000ms 1 slideInFromRight-3 forwards;
+}
+
+.button:hover,
+.button:focus {
+  background: hsl(22 78.8% 50% /.9);
+  color: hsl(0 0% 100%);
+}
+
+@keyframes slideInFromRight-3 {
+  0% {
+    margin-left: 30px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
 }
