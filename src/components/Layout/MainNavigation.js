@@ -7,6 +7,8 @@ import {
   useRive,
   useStateMachineInput,
 } from "rive-react";
+
+import logo39Img from "../../assets/39logo.png";
 import hamburger from "../../assets/hamburger.riv";
 
 import React from "react";
@@ -97,7 +99,8 @@ const MainNavigation = () => {
           <div className="flex space-x-4">
             <div>
               <button onClick={homeClickHandler} className={classes.appLogo}>
-                {/* <Logo className="w-32 mr-2" alt="logo" /> */}
+                <Logo className="w-32 mr-2" alt="logo" />
+                {/* <img src={logo39Img} className="w-32 mr-2" alt={"山石九平工作室Logo"} /> */}
               </button>
             </div>
           </div>

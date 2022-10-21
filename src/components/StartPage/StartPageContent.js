@@ -1,6 +1,7 @@
 import classes from "./StartPageContent.module.css";
 import { ReactComponent as SeoImg } from "../../assets/seoimg.svg";
 import { ReactComponent as Check } from "../../assets/check.svg";
+import logo39Img from "../../assets/39logo.png";
 import wildDonkeyImg from "../../assets/wilddonkeyworks2020.png";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -16,7 +17,7 @@ const StartPageContent = () => {
         <div className={classes.content}>
           <div className={classes.subject}>
             <h1>
-              山石久平
+              陪伴
               <br />
               工作室
               <br />
@@ -26,6 +27,7 @@ const StartPageContent = () => {
             </div>
           </div>
           {/*<Cat className={classes.logo} />*/}
+          {/* <img src={logo39Img} className={classes.logo} alt={"山石九平工作室Logo"} /> */}
         </div>
       </div>
       <div className={classes.mainBody}>
