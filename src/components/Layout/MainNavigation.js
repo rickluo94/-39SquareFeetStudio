@@ -58,8 +58,8 @@ const MainNavigation = () => {
     petBanOnClickInput.fire();
   };
 
-  const workflowClickHandler = () => {
-    navigate("workflow");
+  const howtoClickHandler = () => {
+    navigate("howto");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
@@ -81,12 +81,15 @@ const MainNavigation = () => {
       <div>
         <div className={classes.backdrop} onClick={meowClickHandler} />
         <div id="NavCollection" className={classes.navCollection}>
-          <button className={classes.colBtn} onClick={aboutClickHandler}>
-            關於Pet伴
+          <button className={classes.colBtn} onClick={howtoClickHandler}>
+            如何開始
           </button>
-          <button className={classes.colBtn} onClick={exampleClickHandler}>
-            成功案例
-          </button>
+          {/* <button className={classes.colBtn} onClick={aboutClickHandler}> */}
+          {/*   關於Pet伴 */}
+          {/* </button> */}
+          {/* <button className={classes.colBtn} onClick={exampleClickHandler}> */}
+          {/*   成功案例 */}
+          {/* </button> */}
         </div>
       </div>
     );
@@ -99,13 +102,13 @@ const MainNavigation = () => {
           <div className="flex space-x-4">
             <div>
               <button onClick={homeClickHandler} className={classes.appLogo}>
-                <Logo className="w-32 mr-2" alt="logo" />
-                {/* <img src={logo39Img} className="w-32 mr-2" alt={"山石九平工作室Logo"} /> */}
+                {/* <Logo className="w-32 mr-2" alt="logo" /> */}
+                <img src={logo39Img} className="w-32 mr-2" alt={"山石九平工作室Logo"} />
               </button>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-1">
-            <button className={classes.btn} onClick={workflowClickHandler}>
+            <button className={classes.btn} onClick={howtoClickHandler}>
               如何開始
             </button>
             {/* <button className={classes.btn} onClick={exampleClickHandler}> */}
