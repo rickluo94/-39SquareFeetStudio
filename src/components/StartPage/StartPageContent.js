@@ -1,6 +1,6 @@
 import classes from "./StartPageContent.module.css";
-import { ReactComponent as SeoImg } from "../../assets/seoimg.svg";
 import { ReactComponent as Check } from "../../assets/check.svg";
+import seoImg from "../../assets/seo.png";
 import logo39Img from "../../assets/39logo.png";
 import wildDonkeyImg from "../../assets/wilddonkeyworks2020.png";
 import { useNavigate } from "react-router-dom";
@@ -72,9 +72,7 @@ const StartPageContent = () => {
           {/* 區域1結束 */}
           <div className={classes.mainTitle}>SEO 服務</div>
           <div className={classes.seoContainer}>
-            <div>
-              <SeoImg className={classes.seoImg} />
-            </div>
+            <img src={seoImg} className={classes.seoImg} />
             <div className={classes.seoCard}>
               <h2>SEO行銷</h2>
               <ul>
