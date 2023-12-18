@@ -45,7 +45,7 @@ const MainNavigation = () => {
   );
 
   const homeClickHandler = () => {
-    navigate("/");
+    navigate("petban.net/");
     dispatch(collectionHide());
     if (collectionShow) {
       petBanOnClickInput.fire();
@@ -53,20 +53,19 @@ const MainNavigation = () => {
   };
 
   const aboutClickHandler = () => {
-    navigate("about");
+    navigate("petban.net/about");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
 
   const howtoClickHandler = () => {
-    navigate("howto");
+    navigate("petban.net/howto");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
 
-
   const exampleClickHandler = () => {
-    navigate("example");
+    navigate("petban.net/example");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
@@ -103,7 +102,11 @@ const MainNavigation = () => {
             <div>
               <button onClick={homeClickHandler} className={classes.appLogo}>
                 {/* <Logo className="w-32 mr-2" alt="logo" /> */}
-                <img src={logo39Img} className="w-32 mr-2" alt={"山石九平工作室Logo"} />
+                <img
+                  src={logo39Img}
+                  className="w-32 mr-2"
+                  alt={"山石九平工作室Logo"}
+                />
               </button>
             </div>
           </div>
