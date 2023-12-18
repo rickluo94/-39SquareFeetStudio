@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/petban.net/static/css/main.97ec4546.css",
+    "main.js": "/petban.net/static/js/main.85aa8dfa.js",
+    "static/js/787.495db42a.chunk.js": "/petban.net/static/js/787.495db42a.chunk.js",
+    "static/media/seo.png": "/petban.net/static/media/seo.d205a3c3ce70caaba64b.png",
+    "static/media/wilddonkeyworks2020.png": "/petban.net/static/media/wilddonkeyworks2020.ae791402f509ecdd9e07.png",
+    "static/media/logo.svg": "/petban.net/static/media/logo.09f1c801c5890174d6a4e520fd0f2d1c.svg",
+    "static/media/hamburger.riv": "/petban.net/static/media/hamburger.0a929ffef054825fada7.riv",
+    "index.html": "/petban.net/index.html",
+    "static/media/check.svg": "/petban.net/static/media/check.4efec74a733f588405ebd900c4917b40.svg",
+    "main.97ec4546.css.map": "/petban.net/static/css/main.97ec4546.css.map",
+    "main.85aa8dfa.js.map": "/petban.net/static/js/main.85aa8dfa.js.map",
+    "787.495db42a.chunk.js.map": "/petban.net/static/js/787.495db42a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97ec4546.css",
+    "static/js/main.85aa8dfa.js"
+  ]
+}
