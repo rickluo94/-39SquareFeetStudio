@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/petban.net/static/css/main.97ec4546.css",
-    "main.js": "/petban.net/static/js/main.bb331de0.js",
-    "static/js/787.495db42a.chunk.js": "/petban.net/static/js/787.495db42a.chunk.js",
-    "static/media/seo.png": "/petban.net/static/media/seo.d205a3c3ce70caaba64b.png",
-    "static/media/wilddonkeyworks2020.png": "/petban.net/static/media/wilddonkeyworks2020.ae791402f509ecdd9e07.png",
-    "static/media/logo.svg": "/petban.net/static/media/logo.09f1c801c5890174d6a4e520fd0f2d1c.svg",
-    "static/media/hamburger.riv": "/petban.net/static/media/hamburger.0a929ffef054825fada7.riv",
-    "index.html": "/petban.net/index.html",
-    "static/media/check.svg": "/petban.net/static/media/check.4efec74a733f588405ebd900c4917b40.svg",
-    "main.97ec4546.css.map": "/petban.net/static/css/main.97ec4546.css.map",
-    "main.bb331de0.js.map": "/petban.net/static/js/main.bb331de0.js.map",
-    "787.495db42a.chunk.js.map": "/petban.net/static/js/787.495db42a.chunk.js.map"
+    "main.css": "/-39SquareFeetStudio/static/css/main.10a39ce4.css",
+    "main.js": "/-39SquareFeetStudio/static/js/main.d8e0a5f3.js",
+    "static/js/787.51b4d5ac.chunk.js": "/-39SquareFeetStudio/static/js/787.51b4d5ac.chunk.js",
+    "static/media/seo.png": "/-39SquareFeetStudio/static/media/seo.d205a3c3ce70caaba64b.png",
+    "static/media/wilddonkeyworks2020.png": "/-39SquareFeetStudio/static/media/wilddonkeyworks2020.ae791402f509ecdd9e07.png",
+    "static/media/logo.svg": "/-39SquareFeetStudio/static/media/logo.09f1c801c5890174d6a4e520fd0f2d1c.svg",
+    "static/media/hamburger.riv": "/-39SquareFeetStudio/static/media/hamburger.0a929ffef054825fada7.riv",
+    "index.html": "/-39SquareFeetStudio/index.html",
+    "static/media/check.svg": "/-39SquareFeetStudio/static/media/check.4efec74a733f588405ebd900c4917b40.svg",
+    "main.10a39ce4.css.map": "/-39SquareFeetStudio/static/css/main.10a39ce4.css.map",
+    "main.d8e0a5f3.js.map": "/-39SquareFeetStudio/static/js/main.d8e0a5f3.js.map",
+    "787.51b4d5ac.chunk.js.map": "/-39SquareFeetStudio/static/js/787.51b4d5ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ec4546.css",
-    "static/js/main.bb331de0.js"
+    "static/css/main.10a39ce4.css",
+    "static/js/main.d8e0a5f3.js"
   ]
 }
