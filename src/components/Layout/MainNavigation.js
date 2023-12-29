@@ -45,7 +45,7 @@ const MainNavigation = () => {
   );
 
   const homeClickHandler = () => {
-    navigate("petban.net/");
+    navigate("-39SquareFeetStudio/");
     dispatch(collectionHide());
     if (collectionShow) {
       petBanOnClickInput.fire();
@@ -53,19 +53,19 @@ const MainNavigation = () => {
   };
 
   const aboutClickHandler = () => {
-    navigate("petban.net/about");
+    navigate("-39SquareFeetStudio/about");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
 
   const howtoClickHandler = () => {
-    navigate("petban.net/howto");
+    navigate("-39SquareFeetStudio/howto");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
 
   const exampleClickHandler = () => {
-    navigate("petban.net/example");
+    navigate("-39SquareFeetStudio/example");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };

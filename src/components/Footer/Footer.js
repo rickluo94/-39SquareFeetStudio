@@ -6,12 +6,12 @@ const Footer = () => {
       <div className={classes.footerMain}>
         <button >關於我們</button>
         <button >
-          <a href="mailto:petban@petban.net">意見回饋</a>
+          <a href="mailto:sf39studio@icloud.com">意見回饋</a>
         </button>
         {/*  <button>合作夥伴</button> */}
       </div>
       <div className={classes.content}>
-        <p>Copyright &copy; 2021 山石九平工作室</p>
+        <p>Copyright &copy; 2020 山石九平工作室</p>
       </div>
     </div>
   );

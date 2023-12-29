@@ -171,7 +171,7 @@ const StartPageContent = () => {
           <p>
             誠摯邀請您與我們合作
             <br />
-            <a href="mailto:petban@petban.net">Email:petban@petban.net</a>
+            <a href="mailto:sf39studio@icloud.com">Email:sf39studio@icloud.com</a>
           </p>
         </div>
       </div>

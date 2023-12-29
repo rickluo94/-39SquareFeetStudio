@@ -10,9 +10,9 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="petban.net/" element={<HomePage />} />
-        <Route path="petban.net/howto" element={<HowToPageContent />} />
-        <Route path="petban.net/example" element={<></>} />
+        <Route path="-39SquareFeetStudio/" element={<HomePage />} />
+        <Route path="-39SquareFeetStudio/howto" element={<HowToPageContent />} />
+        <Route path="-39SquareFeetStudio/example" element={<></>} />
       </Routes>
     </Layout>
   );
