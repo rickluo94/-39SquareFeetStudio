@@ -17,7 +17,7 @@ const StartPageContent = () => {
         <div className={classes.content}>
           <div className={classes.subject}>
             <h1>
-              山石九平
+              山石久平
               <br />
               工作室
               <br />
