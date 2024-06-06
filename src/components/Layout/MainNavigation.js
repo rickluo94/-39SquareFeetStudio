@@ -45,7 +45,7 @@ const MainNavigation = () => {
   );
 
   const homeClickHandler = () => {
-    navigate("-39SquareFeetStudio/");
+    navigate("sf39Studio/");
     dispatch(collectionHide());
     if (collectionShow) {
       petBanOnClickInput.fire();
@@ -53,19 +53,19 @@ const MainNavigation = () => {
   };
 
   const aboutClickHandler = () => {
-    navigate("-39SquareFeetStudio/about");
+    navigate("sf39Studio/about");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
 
   const howtoClickHandler = () => {
-    navigate("-39SquareFeetStudio/howto");
+    navigate("sf39Studio/howto");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
 
   const exampleClickHandler = () => {
-    navigate("-39SquareFeetStudio/example");
+    navigate("sf39Studio/example");
     dispatch(collectionHide());
     petBanOnClickInput.fire();
   };
@@ -105,7 +105,7 @@ const MainNavigation = () => {
                 <img
                   src={logo39Img}
                   className="w-32 mr-2"
-                  alt={"山石九平工作室Logo"}
+                  alt={"山石九平股份有限公司Logo"}
                 />
               </button>
             </div>
