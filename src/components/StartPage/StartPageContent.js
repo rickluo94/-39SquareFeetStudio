@@ -19,7 +19,7 @@ const StartPageContent = () => {
             <h1>
               山石久平
               <br />
-              工作室
+              資訊整合服務專家
               <br />
             </h1>
             <div className={classes.cosH2}>
